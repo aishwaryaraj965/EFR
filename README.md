@@ -17,11 +17,13 @@ Motifs | Enumeration of all generated motifs[COMING SOON]
 A network consists of nodes (e.g. genes, proteins, neurons etc.), and their interactions are represented as the edges connecting the nodes. Edges can be undirected and denoted as lines, or have directionality attributes such as arrows; the directed edges may be excitatory or inhibitory (Figure 2, left). Structural properties of networks include degree (k), degree distribution(P(k)) and centrality [citation]. These properties describe patterns of node connectivity. For example, if node A has degree of k=3, node A would be connected to 3 other nodes (Figure 2, right) (citation). Individual node connectivity could facilitate integration or redistribution of information (Figure 3).
 
 ![Figure 1](images/figure1.png)
+
 __Figure 1__
 
 Possible kinds of connections among nodes in a network: arrows indicate excitation, rectilinear ends indicate inhibition. Self-activation and self-inhibition are also possible. Degree of a node is equal to the number of connections it has to other nodes, whether those connections are excitatory, inhibitory, incoming or outgoing. Here node A has degree of 3, and nodes B, C, D have degree of 1.
 
 ![Figure 2](images/figure2.png)
+
 __Figure 2__
 
 Nodes with more outputs than inputs tend to distribute incoming information across the downstream network, potentially activating many effectors in response to few stimuli. Modes with more inputs than outputs tend to integrate the incoming information, potentially activating a single coherent behavior in response to a complex set of stimuli.
